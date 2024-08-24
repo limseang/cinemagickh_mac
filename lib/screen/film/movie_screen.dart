@@ -468,7 +468,7 @@ class _MovieScreenState extends State<MovieScreen> {
             children: [
               _buildRateThisButton(),
               SizedBox(width: 20),
-              print('trailer : ${filmController.movieDetailModel.data!.trailer}'),
+              // print('trailer : ${filmController.movieDetailModel.data!.trailer}'),
               _buildTrailerButton(),
             ],
           )
